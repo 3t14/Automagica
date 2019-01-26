@@ -494,7 +494,7 @@ def ChromeBrowser(ignore_images=False, headless=False):
     elif platform.system() == 'Windows':
         chromedriver_path = '\\bin\\win32\\chromedriver.exe'
     else:
-        chromedriver_path = '\\bin\\mac64\\chromedriver.exe'
+        chromedriver_path = '\\bin\\mac64\\chromedriver'
 
     from selenium.webdriver import Chrome, ChromeOptions
 
